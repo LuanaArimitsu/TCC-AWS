@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-image: url(img/fundo_borda.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+ header{
+    width: 100%;
+    height: 150px;
+ }
+
+ header img{
+    width: 150px;
+    height: 150px;
+    margin-left: 600px;
+ }
+
+  main {
+    margin-top: 100px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  span {
+    font-size: x-large;
+  }
+  
+  img {
+    width: 100%;
+    height: 700px;
+  }
+  
+  .swiper {
+    height: auto;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 450px) {
+    img {
+        width: 100%;
+        height: auto;
+      }
+  }
