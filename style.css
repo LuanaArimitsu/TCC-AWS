@@ -65,4 +65,15 @@
         width: 100%;
         height: auto;
       }
+
+    .swiper{
+        margin-top: 50px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 180px;
+    }
+
   }
